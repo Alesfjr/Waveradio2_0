@@ -6,12 +6,13 @@
 }
 body{
     background-color: black !important;
+    overflow-x: hidden;
 }
 .radio{
-    width: 100vw;
+   
     justify-content: center;
     display: flex;
-    padding: 50px;
+    padding-top: 50px;
 }
 .audio{
     width: 50vw;
@@ -162,6 +163,7 @@ img{
 .row {
     display: flex;
     justify-content: space-around;
+    margin: 0;
 }
 .top-images {
     display: flex;
@@ -193,11 +195,9 @@ img{
 
 
 
-  .container{
-	max-width: 1170px;
-	margin:auto;
-}
-.row{
+  
+
+.row2{
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -209,8 +209,8 @@ ul{
     padding: 70px 0;
 }
 .footer-col{
-   width: 25%;
-   padding: 0 15px;
+   width: 0%;
+   padding: 30px 15px;
 }
 .footer-col h4{
 	font-size: 18px;
@@ -276,4 +276,3 @@ ul{
     width: 100%;
 }
 }
-  
